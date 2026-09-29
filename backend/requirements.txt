@@ -1,0 +1,41 @@
+Mako==1.4.3
+MarkupSafe==3.0.3
+# PersonaAI backend — Python 3.12+
+#
+# Install:
+#   python -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Direct dependencies are pinned. Transitive dependencies are pinned below
+# for reproducible builds.
+
+# --- Web framework -------------------------------------------------------
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+
+# --- Settings & validation ---------------------------------------------
+pydantic==2.13.5
+pydantic-settings==2.15.0
+
+# --- Database ------------------------------------------------------------
+SQLAlchemy==2.1.1
+psycopg[binary]==3.3.6
+
+# --- Migrations ----------------------------------------------------------
+alembic==1.20.0
+
+# --- Testing -------------------------------------------------------------
+pytest==9.1.1
+httpx==0.28.1
+
+# --- Transitive dependencies (pinned for reproducibility) ---------------
+annotated-types==0.8.0
+anyio==4.15.1
+Mako==1.4.3
+MarkupSafe==3.0.3
+psycopg-binary==3.3.6
+pydantic_core==2.46.5
+starlette==1.7.0
+typing-inspection==0.4.4
+

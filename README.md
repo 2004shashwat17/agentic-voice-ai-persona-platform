@@ -25,7 +25,10 @@ Choose a persona, give it context, and have a natural voice conversation.
 
 ## Getting started
 
+The frontend lives in [`frontend/`](./frontend). Run it from there:
+
 ```bash
+cd frontend
 npm install
 npm run dev          # http://localhost:3000
 ```
@@ -52,6 +55,8 @@ npm run typecheck    # tsc --noEmit
 | `/settings`                | Account, appearance, voice, conversation, privacy…   |
 
 ## Architecture
+
+All paths below are relative to `frontend/`.
 
 ```
 src/
